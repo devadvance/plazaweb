@@ -192,7 +192,7 @@ export default async function About() {
     <RootLayout>
       <PageIntro eyebrow="Virtual tour" title="A guided visit to Embarcadero Plaza">
         <p>
-          Whether you're visiting in person or from afar, this virtual tour will help you learn more about the essential parts of Embarcadero Plaza.
+          Whether you’re visiting in person or from afar, this virtual tour will help you learn more about the essential parts of Embarcadero Plaza.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>

@@ -17,9 +17,9 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
 }
 
- if (process.env.NODE_ENV === 'development') {
-   await setupDevPlatform();
- }
+if (process.env.NODE_ENV === 'development') {
+  await setupDevPlatform();
+}
 
 function remarkMDXLayout(source, metaName) {
   let parser = Parser.extend(jsx())

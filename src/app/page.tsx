@@ -71,7 +71,7 @@ function Timeline() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          With over 50 years of history, Embarcadero Plaza is deeply connected to San Francisco's past
+          With over 50 years of history, Embarcadero Plaza is deeply connected to San Francisco’s past
           and is an important part of its future.
         </p>
       </SectionIntro>
@@ -105,7 +105,7 @@ function Timeline() {
             <div className="absolute w-3 h-3 bg-green-950 rounded-full mt-1.5 -start-1.5 border border-white"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-700">1966</time>
             <h3 className="text-lg font-semibold text-gray-900">Fountain design competition</h3>
-            <p className="mb-4 text-base font-normal text-gray-500">A design competition for the fountain at Embarcadero Plaza kicks off. Five international sculptors submit designs: Armand Vaillancourt, James Melchert, Reuben Nakian, Jacques Overhoff, and Alicia Penalba. The competition's jury is composed of Lawrence Halprin, John Savage Bolles, and Mario Ciampi.</p>
+            <p className="mb-4 text-base font-normal text-gray-500">A design competition for the fountain at Embarcadero Plaza kicks off. Five international sculptors submit designs: Armand Vaillancourt, James Melchert, Reuben Nakian, Jacques Overhoff, and Alicia Penalba. The competition’s jury is composed of Lawrence Halprin, John Savage Bolles, and Mario Ciampi.</p>
           </li>
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-green-950 rounded-full mt-1.5 -start-1.5 border border-white"></div>
@@ -134,14 +134,14 @@ function Timeline() {
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-green-950 rounded-full mt-1.5 -start-1.5 border border-white"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-700">1974</time>
-            <h3 className="text-lg font-semibold text-gray-900">Plaza renamed as "Justin Herman Plaza"</h3>
+            <h3 className="text-lg font-semibold text-gray-900">Plaza renamed as “Justin Herman Plaza”</h3>
             <p className="mb-4 text-base font-normal text-gray-500">Until this point, the plaza has been known as Embarcadero Plaza. It is renamed after the former Executive Director of the San Francisco Redevelopment Agency.</p>
           </li>
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-green-950 rounded-full mt-1.5 -start-1.5 border border-white"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-700">1981</time>
             <h3 className="text-lg font-semibold text-gray-900"><em>La Chiffonnière</em> sculpture installed</h3>
-            <p className="mb-4 text-base font-normal text-gray-500"><em>La Chiffonnière</em> ("Rag Woman") by Jean Dubuffet is installed in Embarcadero Plaza. The sculpture is part of the privately-owned Embarcadero Center art collection.</p>
+            <p className="mb-4 text-base font-normal text-gray-500"><em>La Chiffonnière</em> (“Rag Woman”) by Jean Dubuffet is installed in Embarcadero Plaza. The sculpture is part of the privately-owned Embarcadero Center art collection.</p>
           </li>
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-green-950 rounded-full mt-1.5 -start-1.5 border border-white"></div>
@@ -219,7 +219,7 @@ function Timeline() {
             <div className="absolute w-3 h-3 bg-green-950 rounded-full mt-1.5 -start-1.5 border border-white"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-700">2017</time>
             <h3 className="text-lg font-semibold text-gray-900">Embarcadero Plaza as named</h3>
-            <p className="mb-4 text-base font-normal text-gray-500">The plaza is renamed from "Justin Herman Plaza" back to its original Embarcadero Plaza name.</p>
+            <p className="mb-4 text-base font-normal text-gray-500">The plaza is renamed from “Justin Herman Plaza” back to its original Embarcadero Plaza name.</p>
           </li>
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-green-950 rounded-full mt-1.5 -start-1.5 border border-white"></div>
@@ -394,11 +394,11 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-balance text-neutral-950 sm:text-7xl">
-            Visit a celebrated part of San Francisco's waterfront
+            Visit a celebrated part of San Francisco’s waterfront
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            For over 50 years, Embarcadero Plaza has been an integral part of San Francisco's downtown and waterfront.
-            Located between the end of Market Street and the Ferry Building, it's frequented by locals and tourists alike.
+            For over 50 years, Embarcadero Plaza has been an integral part of San Francisco’s downtown and waterfront.
+            Located between the end of Market Street and the Ferry Building, it’s frequented by locals and tourists alike.
           </p>
           <div className="mt-6 flex items-center gap-x-6 lg:mt-6 lg:shrink-0">
             <a
