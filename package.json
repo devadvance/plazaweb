@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "npm run pages:build && wrangler pages dev",
+    "deploy": "npm run pages:build && wrangler pages deploy"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
@@ -38,8 +41,10 @@
     "unified-conditional": "0.0.2"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.12",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.0.4",
+    "eslint-plugin-next-on-pages": "^1.13.12",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "sharp": "0.33.1"
