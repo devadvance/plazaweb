@@ -190,10 +190,9 @@ export default async function About() {
 
   return (
     <RootLayout>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="Virtual tour" title="A guided visit to Embarcadero Plaza">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          Whether you're visiting in person or from afar, this virtual tour will help you learn more about the essential parts of Embarcadero Plaza.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>

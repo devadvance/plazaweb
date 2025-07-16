@@ -7,18 +7,18 @@ import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
   {
-    title: 'Work',
+    title: 'Tour',
     links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
+      { title: 'FamilyFund', href: '/tour/family-fund' },
+      { title: 'Unseal', href: '/tour/unseal' },
+      { title: 'Phobia', href: '/tour/phobia' },
       {
         title: (
           <>
             See all <span aria-hidden="true">&rarr;</span>
           </>
         ),
-        href: '/work',
+        href: '/tour',
       },
     ],
   },
@@ -125,7 +125,7 @@ export function Footer() {
             <Logo className="h-8" fillOnHover />
           </Link>
           <p className="text-sm text-neutral-700">
-            © Studio Agency Inc. {new Date().getFullYear()}
+            © Friends of Embarcadero Plaza. {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>

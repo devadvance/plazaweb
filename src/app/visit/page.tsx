@@ -149,8 +149,8 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <RootLayout>
-      <PageIntro eyebrow="Contact us" title="Let’s work together">
-        <p>We can’t wait to hear from you.</p>
+      <PageIntro eyebrow="Take your first step" title="Visit Embarcadero Plaza today">
+        <p>Experience San Francisco's history.</p>
       </PageIntro>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
