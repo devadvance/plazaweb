@@ -1,4 +1,5 @@
 import { FadeIn } from '@/components/FadeIn'
+import Image from 'next/image'
 import historicCrowd from '@/images/grid/AAR-6564-1971-04-22-SFRA.jpg'
 import historicFountain from '@/images/grid/AAR-6528-1971-05-SFRA.jpg'
 import fountainVertical2 from '@/images/grid/fountain-vertical-2.jpg'
@@ -12,26 +13,26 @@ export function ImageGrid() {
       <div className="lg:mx-64 grid grid-cols-3 md:grid-cols-3 gap-4 mt-4">
         <div className="grid gap-4">
           <div>
-            <img className="h-auto max-w-full rounded-lg" src={fountainVertical.src} alt="" />
+            <Image className="h-auto max-w-full rounded-lg" src={fountainVertical} alt="" />
           </div>
           <div>
-            <img className="h-auto max-w-full rounded-lg" src={historicCrowd.src} alt="" />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img className="h-auto max-w-full rounded-lg" src={overview.src} alt="" />
-          </div>
-          <div>
-            <img className="h-auto max-w-full rounded-lg" src={fountainVertical2.src} alt="" />
+            <Image className="h-auto max-w-full rounded-lg" src={historicCrowd} alt="" />
           </div>
         </div>
         <div className="grid gap-4">
           <div>
-            <img className="h-auto max-w-full rounded-lg" src={historicFountain.src} alt="" />
+            <Image className="h-auto max-w-full rounded-lg" src={overview} alt="" />
           </div>
           <div>
-            <img className="h-auto max-w-full rounded-lg" src={eagleView.src} alt="" />
+            <Image className="h-auto max-w-full rounded-lg" src={fountainVertical2} alt="" />
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <div>
+            <Image className="h-auto max-w-full rounded-lg" src={historicFountain} alt="" />
+          </div>
+          <div>
+            <Image className="h-auto max-w-full rounded-lg" src={eagleView} alt="" />
           </div>
         </div>
       </div>
