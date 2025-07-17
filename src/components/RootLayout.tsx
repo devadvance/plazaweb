@@ -144,11 +144,11 @@ function Navigation() {
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
         <NavigationItem href="/visit">Visit</NavigationItem>
-        <NavigationItem href="/tour">Virtual Tour</NavigationItem>
+        {/* <NavigationItem href="/tour">Virtual Tour</NavigationItem> */}
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/history">History</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        {/* <NavigationItem href="/blog">Blog</NavigationItem> */}
       </NavigationRow>
     </nav>
   )
@@ -236,7 +236,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
               />
             </div>
             <Navigation />
-            <div className="relative bg-green-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
+            {/* <div className="relative bg-green-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pt-10 pb-16 sm:grid-cols-2 sm:pt-16">
                   <div>
@@ -256,7 +256,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                   </div>
                 </div>
               </Container>
-            </div>
+            </div> */}
           </motion.div>
         </motion.div>
       </header>
