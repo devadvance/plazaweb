@@ -8,17 +8,6 @@ import { Timeline } from '@/components/Timeline'
 import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 
-import imageAngelaFisher from '@/images/team/angela-fisher.jpg'
-import imageBenjaminRussel from '@/images/team/benjamin-russel.jpg'
-import imageBlakeReid from '@/images/team/blake-reid.jpg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpg'
-import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpg'
-import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpg'
-import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
-import imageWhitneyFrancis from '@/images/team/whitney-francis.jpg'
-
-import imageOverview from '@/images/grid/overview.jpg'
-
 import AAR_6551 from '@/images/sfpl/fountain/AAR-6551.jpg'
 import AAR_6560 from '@/images/sfpl/fountain/AAR-6560.jpg'
 import AAR_6564 from '@/images/sfpl/fountain/AAR-6564.jpg'
@@ -38,6 +27,11 @@ import aerial_2004_aerial_ccsf from '@/images/aerials/2004_aerial_ccsf.jpg'
 import aerial_2009_aerial_ccsf from '@/images/aerials/2009_aerial_ccsf.jpg'
 import aerial_2015_aerial_ccsf from '@/images/aerials/2015_aerial_ccsf.jpg'
 import aerial_2024_aerial_ccsf from '@/images/aerials/2024_aerial_ccsf.jpg'
+import laChiffonniereMarkManguerra from '@/images/community/plaza/2008-03-25_-_La_Chiffonniere_by_Dubuffet_at_the_Embarcadero_Plaza_-_Mark_Manguerra.jpg'
+import dancersGaryStevens from '@/images/community/plaza/2009-09-12_-_Dancers_at_Justin_Herman_Plaza_-_Gary_Stevens.jpg'
+import zeppelinRideCraigHowell from '@/images/community/plaza/2010-09-25_-_zeppelin-ride-020100925-185_-_Craig_Howell.jpg'
+import ringsofFirezoxcleb from '@/images/community/plaza/2012-06-14_-_Rings_of_Fire_-_zoxcleb.jpg'
+import holidayIceRinkWillisLam from '@/images/community/plaza/2015-12-31_-_Holiday_Ice_Rink_-_Willis_Lam.jpg'
 
 export const metadata: Metadata = {
   title: 'History',
@@ -85,6 +79,26 @@ const historicImages = [
       {
         description: 'Plaza and fountain drawing circa 1968-1971. Courtesy of San Francisco History Center, SFPL',
         image: { src: AAR_6553 },
+      },
+      {
+        description: '“Holiday Ice Rink at Embarcadero Center” in December 2015 by Willis Lam, CC BY-SA 2.0',
+        image: { src: holidayIceRinkWillisLam },
+      },
+      {
+        description: '“Dancers at Justin Herman Plaza” in September 2009 by Gary Stevens, CC BY 2.0',
+        image: { src: dancersGaryStevens },
+      },
+      {
+        description: '“Rings of Fire” in June 2012 by zoxcleb, CC BY-SA 2.0',
+        image: { src: ringsofFirezoxcleb },
+      },
+      {
+        description: '“zeppelin-ride-020100925-185” in September 2010 by Craig Howell, CC BY 2.0',
+        image: { src: zeppelinRideCraigHowell },
+      },
+      {
+        description: '“La Chiffonniere by Dubuffet at the Embarcadero Plaza” in March 2008 by Mark Manguerra, CC BY-NC-ND 2.0',
+        image: { src: laChiffonniereMarkManguerra },
       }
     ]
   },
