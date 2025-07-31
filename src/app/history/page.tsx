@@ -174,6 +174,7 @@ function HistoricImages() {
                   {category.images.map((individualImage) => (
                     <li key={individualImage.description}>
                       <FadeIn>
+                        <a href={individualImage.image.src.src} target="_blank">
                         <div className="group relative overflow-hidden rounded-3xl bg-neutral-100">
                           <Image
                             alt=""
@@ -189,6 +190,7 @@ function HistoricImages() {
                             </p>
                           </div>
                         </div>
+                        </a>
                       </FadeIn>
                     </li>
                   ))}
