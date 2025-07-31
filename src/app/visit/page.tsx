@@ -17,15 +17,10 @@ function Hours() {
       <p className="mt-6 text-base text-neutral-600">
         While there may be events happening, Embarcadero Plaza is open every day, rain or shine.
       </p>
-      <ul className="mt-6">
-        <li>Monday: 24 hours</li>
-        <li>Tuesday: 24 hours</li>
-        <li>Wednesday: 24 hours</li>
-        <li>Thursday: 24 hours</li>
-        <li>Friday: 24 hours</li>
-        <li>Saturday: 24 hours</li>
-        <li>Sunday: 24 hours</li>
-      </ul>
+      <p className="mt-6">
+        The plaza is open 24 hours a day for anyone transversing the plaza.
+        It is open from 5:00 a.m. to midnight every day for all other activities.
+      </p>
     </FadeIn>
   )
 }

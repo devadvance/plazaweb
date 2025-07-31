@@ -18,7 +18,13 @@ export function GettingHere() {
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
+        
+        <FadeIn>
+          <p className="text-white mt-8">Get directions from your preferred transportation and mapping apps:</p>
+        </FadeIn>
+        
         <FadeInStagger faster>
+          
           <ul className="mt-2">
             <FadeIn>
             {routingServices.map((service) => (
@@ -30,8 +36,13 @@ export function GettingHere() {
             ))}
             </FadeIn>
           </ul>
+          
         </FadeInStagger>
-        <p className="text-white mt-8">Open 24 hours, 7 days a week, every day of the year</p>
+
+        <FadeIn>
+          <p className="text-white mt-8">Open every day of the year!</p>
+        </FadeIn>
+        
       </Container>
     </div>
   )
